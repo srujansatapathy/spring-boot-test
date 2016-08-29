@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class HomeController {
 	
     @RequestMapping("/")
-    public String index() {
-        return "My First Spring boot Application";
+    public String homePage() {
+        return "HomePage :) ";
     }
 
 }
